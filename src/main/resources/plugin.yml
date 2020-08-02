@@ -1,0 +1,13 @@
+name: DependCheck
+version: ${project.version}
+main: city.genkoku.dependcheck.DependCheck
+api-version: 1.13
+authors: [tomo1560]
+
+commands:
+  dependcheck:
+    description: Searches for plugins that the plugin depends on.
+    permission: dependcheck.use
+    usage: "Usage: /<command> <pluginName>"
+    default: false
+
